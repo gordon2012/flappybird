@@ -16,7 +16,8 @@ module.exports = {
 	module: {
 		loaders: [
 			{ test: /pixi.js/, loader: "script" },
-			{ test: /phaser.js/, loader: "script" }
+			{ test: /phaser.js/, loader: "script" },
+			{ test: /\.(png)$/, loader: "file?name=[path][name].[ext]&context=/assets" }
 		]
 	},
 	plugins: [HtmlWebPackPluginConfig]

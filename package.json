@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gordon2012/flappybird#readme",
   "devDependencies": {
+    "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.16.1",
     "script-loader": "^0.7.0",
     "webpack": "^1.13.0",

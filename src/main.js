@@ -3,7 +3,7 @@ var mainState = {
     preload: function() {
         // This function will be executed at the beginning
         // That's where we load the images and sounds
-        game.load.image('bird', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/303256/bird.png');
+        game.load.image('bird', 'assets/bird.png');
     },
 
     create: function() {

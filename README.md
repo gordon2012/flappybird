@@ -7,3 +7,4 @@ A flappy bird clone made with Phaser.io
 	- add file-loader for assets
 - The Pipes
 - add travis deployment
+- fix image file loading

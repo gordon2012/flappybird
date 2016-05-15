@@ -1,10 +1,13 @@
+var bird = require("../assets/bird.png");
+var pipe = require("../assets/pipe.png");
+
 // Create our 'main' state that will contain the game
 var mainState = {
     preload: function() {
         // This function will be executed at the beginning
         // That's where we load the images and sounds
-        game.load.image('bird', 'assets/bird.png');
-        game.load.image('pipe', 'assets/pipe.png');
+        game.load.image('bird', bird);
+        game.load.image('pipe', pipe);
     },
 
     create: function() {

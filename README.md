@@ -8,3 +8,4 @@ A flappy bird clone made with Phaser.io
 - The Pipes
 - add travis deployment
 - fix image file loading
+- Scoring and Collisions

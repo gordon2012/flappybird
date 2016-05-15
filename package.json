@@ -4,7 +4,8 @@
   "description": "A flappy bird clone made with Phaser.io",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --progress --colors"
+    "start": "webpack-dev-server --inline --hot --progress --colors",
+    "production": "webpack -p"
   },
   "repository": {
     "type": "git",
